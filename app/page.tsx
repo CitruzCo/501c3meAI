@@ -107,10 +107,11 @@ export default function LandingPage() {
                 <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-fuchsia-500 to-violet-600 opacity-30 blur-xl"></div>
                 <div className="relative rounded-2xl bg-white p-2 shadow-xl">
                   <Image
-                    src="/placeholder.svg?text=AI+Dashboard&fontsize=24&bg=fuchsia&textcolor=white"
+                    src="/images/ai-dashboard.svg"
                     width={800}
                     height={600}
                     alt="AI Dashboard Preview"
+                    priority
                     className="rounded-xl"
                   />
                 </div>
@@ -126,15 +127,16 @@ export default function LandingPage() {
               Trusted by leading companies worldwide
             </p>
             <div className="grid grid-cols-2 gap-8 md:grid-cols-6">
-              {["TechGiant", "InnovateCorp", "FutureTech", "GlobalAI", "SmartSolutions", "DataDynamics"].map(
-                (company, i) => (
+              {["United Way", "Red Cross", "Habitat", "UNICEF", "WorldVision", "Feeding America"].map(
+                (org, i) => (
                   <div key={i} className="flex items-center justify-center">
                     <Image
-                      src={`/placeholder.svg?text=${company}&fontsize=14&bg=gray&textcolor=white`}
+                      src={`/images/logo.svg`}
                       width={120}
                       height={40}
-                      alt={`${company} logo`}
+                      alt={`${org} logo`}
                       className="opacity-60 grayscale transition-all hover:opacity-100 hover:grayscale-0"
+                      style={{ width: 'auto', height: '40px' }}
                     />
                   </div>
                 ),
@@ -223,10 +225,10 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image
-                  src="/placeholder.svg?text=Our+Story&fontsize=24&bg=purple&textcolor=white"
+                  src="/images/mission.svg"
                   width={600}
                   height={400}
-                  alt="Our Story"
+                  alt="Our Mission Visualization"
                   className="rounded-xl shadow-lg"
                 />
               </div>
