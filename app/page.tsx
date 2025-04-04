@@ -3,16 +3,16 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import {
   ArrowRight,
-  CheckCircle,
+  BarChart,
+  ChartBar,
   ChevronRight,
-  Globe,
-  Layers,
-  Lightbulb,
+  FileText,
+  Layout,
   Mail,
   Phone,
   Rocket,
-  Shield,
-  Zap,
+  Search,
+  Users,
 } from "lucide-react"
 
 export default function LandingPage() {
@@ -68,11 +68,10 @@ export default function LandingPage() {
                   Introducing Our AI Platform
                 </div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-fuchsia-700 via-purple-600 to-violet-700 bg-clip-text text-transparent">
-                  Transform Your Non-profit with 501cemeAI Solutions
+                  Empower Your Non-profit with AI-Driven Solutions
                 </h1>
                 <p className="max-w-lg text-lg text-gray-600 md:text-xl">
-                  Elevate your brand with our cutting-edge AI platform designed to boost engagement, increase
-                  conversions, and drive growth.
+                  Harness the power of AI to maximize your impact, streamline operations, and better serve your community with our comprehensive non-profit focused platform.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
@@ -159,34 +158,34 @@ export default function LandingPage() {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  icon: <Zap className="h-6 w-6 text-fuchsia-600" />,
-                  title: "Lightning Fast AI Processing",
-                  description: "Optimized for speed to provide the best AI experience possible.",
+                  icon: <ChartBar className="h-6 w-6 text-fuchsia-600" />,
+                  title: "Donor Analytics",
+                  description: "Identify giving patterns and optimize donor communications with predictive AI models that increase retention and conversion.",
                 },
                 {
-                  icon: <Shield className="h-6 w-6 text-emerald-600" />,
-                  title: "Enterprise-Grade Security",
-                  description: "Advanced security features to keep your AI data safe and secure.",
+                  icon: <Search className="h-6 w-6 text-emerald-600" />,
+                  title: "Grant Matching",
+                  description: "Our AI scans thousands of grant opportunities to find perfect matches for your mission, saving you countless research hours.",
                 },
                 {
-                  icon: <Globe className="h-6 w-6 text-blue-600" />,
-                  title: "Global AI Reach",
-                  description: "Expand your AI capabilities globally with our international infrastructure.",
+                  icon: <BarChart className="h-6 w-6 text-blue-600" />,
+                  title: "Impact Reporting",
+                  description: "Translate your program data into compelling impact stories with customized visualizations and narratives for stakeholders.",
                 },
                 {
-                  icon: <Layers className="h-6 w-6 text-amber-600" />,
-                  title: "Scalable AI Architecture",
-                  description: "Grows with your business, from startup to enterprise.",
+                  icon: <FileText className="h-6 w-6 text-amber-600" />,
+                  title: "Document Processing",
+                  description: "Streamline intake forms, applications, and program documentation with AI-powered OCR and form processing.",
                 },
                 {
-                  icon: <Lightbulb className="h-6 w-6 text-purple-600" />,
-                  title: "Intelligent AI Insights",
-                  description: "Data-driven analytics to help you make informed decisions.",
+                  icon: <Layout className="h-6 w-6 text-purple-600" />,
+                  title: "Program Management",
+                  description: "Track outcomes, manage participants, and measure progress with customizable dashboards built for nonprofit programs.",
                 },
                 {
-                  icon: <CheckCircle className="h-6 w-6 text-teal-600" />,
-                  title: "Seamless AI Integration",
-                  description: "Works with your existing tools and workflows out of the box.",
+                  icon: <Users className="h-6 w-6 text-teal-600" />,
+                  title: "Volunteer Coordination",
+                  description: "Optimize volunteer scheduling, skills matching, and engagement through our intelligent volunteer management system.",
                 },
               ].map((feature, i) => (
                 <div
