@@ -68,7 +68,7 @@ export default function LandingPage() {
                   Introducing Our AI Platform
                 </div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl bg-gradient-to-r from-fuchsia-700 via-purple-600 to-violet-700 bg-clip-text text-transparent">
-                  Transform Your Business with 501cemeAI Solutions
+                  Transform Your Non-profit with 501cemeAI Solutions
                 </h1>
                 <p className="max-w-lg text-lg text-gray-600 md:text-xl">
                   Elevate your brand with our cutting-edge AI platform designed to boost engagement, increase
