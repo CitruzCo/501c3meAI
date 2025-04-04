@@ -57,8 +57,15 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section
           id="home"
-          className="relative overflow-hidden bg-gradient-to-b from-white to-fuchsia-50 py-20 md:py-32"
+          className="relative overflow-hidden py-20 md:py-32"
         >
+          <Image
+            src="/images/banner.svg"
+            alt="Banner Background"
+            fill
+            className="object-cover object-center"
+            priority
+          />
           <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
           <div className="container relative">
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-20 items-center">
@@ -449,38 +456,30 @@ export default function LandingPage() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12 md:py-16">
+      <footer className="bg-gradient-to-br from-gray-900 to-purple-900 text-gray-300 py-12 md:py-16">
         <div className="container">
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div>
-              <div className="flex items-center gap-2 mb-6">
-                <Rocket className="h-6 w-6 text-fuchsia-400" />
-                <span className="text-xl font-bold text-white">501cemeAI</span>
-              </div>
-              <p className="text-sm text-gray-400 max-w-xs">
-                Empowering businesses with vibrant, innovative AI solutions since 2020.
-              </p>
+          <div className="flex flex-col items-center text-center mb-8">
+            <div className="flex items-center gap-2 mb-4">
+              <Rocket className="h-8 w-8 text-fuchsia-400" />
+              <span className="text-2xl font-bold text-white">501cemeAI</span>
             </div>
-            {["Product", "Company", "Resources"].map((category) => (
-              <div key={category}>
-                <h3 className="font-semibold text-white mb-4">{category}</h3>
-                <ul className="space-y-2">
-                  {[1, 2, 3, 4].map((i) => (
-                    <li key={i}>
-                      <Link href="#" className="text-sm hover:text-fuchsia-400 transition-colors">
-                        {category} Link {i}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+            <p className="text-lg text-gray-300 max-w-xl">
+              Empowering non-profits with innovative AI solutions to maximize their impact and better serve their communities.
+            </p>
           </div>
-          <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500">© {new Date().getFullYear()} 501cemeAI. All rights reserved.</p>
-            <div className="flex gap-6">
-              {["Terms", "Privacy", "Cookies"].map((item) => (
-                <Link key={item} href="#" className="text-sm text-gray-500 hover:text-fuchsia-400 transition-colors">
+          <div className="flex justify-center gap-8 mb-8">
+            <Link href="#" className="text-white hover:text-fuchsia-400 transition-colors">
+              <Mail className="h-6 w-6" />
+            </Link>
+            <Link href="#" className="text-white hover:text-fuchsia-400 transition-colors">
+              <Phone className="h-6 w-6" />
+            </Link>
+          </div>
+          <div className="border-t border-gray-700 pt-8 mt-8 text-center">
+            <p className="text-sm text-gray-400">© {new Date().getFullYear()} 501cemeAI. All rights reserved.</p>
+            <div className="flex justify-center gap-6 mt-4">
+              {["Terms", "Privacy", "Contact"].map((item) => (
+                <Link key={item} href="#" className="text-sm text-gray-400 hover:text-fuchsia-400 transition-colors">
                   {item}
                 </Link>
               ))}
