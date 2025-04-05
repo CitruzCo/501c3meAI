@@ -106,12 +106,12 @@ export default function LandingPage() {
                 <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-fuchsia-500 to-violet-600 opacity-30 blur-xl"></div>
                 <div className="relative rounded-2xl bg-white p-2 shadow-xl">
                   <Image
-                    src="/images/ai-dashboard.svg"
+                    src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80"
                     width={800}
                     height={600}
-                    alt="AI Dashboard Preview"
+                    alt="African American professionals working with AI technology"
                     priority
-                    className="rounded-xl"
+                    className="rounded-xl object-cover"
                   />
                 </div>
               </div>
@@ -201,10 +201,10 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image
-                  src="/images/mission.svg"
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80"
                   width={600}
                   height={400}
-                  alt="Our Mission Visualization"
+                  alt="Diverse team collaborating on AI solutions"
                   className="rounded-xl shadow-lg"
                 />
               </div>

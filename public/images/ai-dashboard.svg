@@ -1,11 +1,2 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
-  <rect width="800" height="600" fill="#F9FAFB"/>
-  <path d="M100 100h600v400h-600z" fill="#FFFFFF" stroke="#E5E7EB"/>
-  <rect x="150" y="150" width="250" height="150" rx="8" fill="#F0F7FF"/>
-  <path d="M170 170h210v30h-210z" fill="#3B82F6"/>
-  <rect x="450" y="150" width="200" height="150" rx="8" fill="#F0FDFB"/>
-  <circle cx="550" cy="225" r="50" fill="#10B981"/>
-  <rect x="150" y="350" width="500" height="100" rx="8" fill="#FDF2F8"/>
-  <path d="M170 370h460v20h-460z" fill="#EC4899"/>
-</svg>
+https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80
