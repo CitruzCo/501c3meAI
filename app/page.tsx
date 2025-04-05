@@ -119,30 +119,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* Logos Section */}
-        <section className="border-y bg-white py-12">
-          <div className="container">
-            <p className="text-center text-sm font-medium uppercase tracking-wider text-gray-500 mb-8">
-              Trusted by leading companies worldwide
-            </p>
-            <div className="grid grid-cols-2 gap-8 md:grid-cols-6">
-              {["United Way", "Red Cross", "Habitat", "UNICEF", "WorldVision", "Feeding America"].map(
-                (org, i) => (
-                  <div key={i} className="flex items-center justify-center">
-                    <Image
-                      src={`/images/logo.svg`}
-                      width={120}
-                      height={40}
-                      alt={`${org} logo`}
-                      className="opacity-60 grayscale transition-all hover:opacity-100 hover:grayscale-0"
-                      style={{ width: 'auto', height: '40px' }}
-                    />
-                  </div>
-                ),
-              )}
-            </div>
-          </div>
-        </section>
+        
 
         {/* Features Section */}
         <section id="features" className="bg-white py-20 md:py-32">
