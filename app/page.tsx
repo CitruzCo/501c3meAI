@@ -23,7 +23,7 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Rocket className="h-6 w-6 text-fuchsia-600" />
-            <span className="text-xl font-bold">501cemeAI</span>
+            <span className="text-xl font-bold">501c3meAI</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-fuchsia-600 transition-colors">
@@ -119,7 +119,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        
+
 
         {/* Features Section */}
         <section id="features" className="bg-white py-20 md:py-32">
@@ -191,10 +191,10 @@ export default function LandingPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center mb-16">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-fuchsia-700 to-violet-700 bg-clip-text text-transparent">
-                About 501cemeAI
+                About 501c3meAI
               </h2>
               <p className="mt-4 text-lg text-gray-600">
-                Founded in 2020, 501cemeAI has been at the forefront of AI innovation, helping businesses of all sizes
+                Founded in 2020, 501c3meAI has been at the forefront of AI innovation, helping businesses of all sizes
                 harness the power of artificial intelligence to drive growth and efficiency.
               </p>
             </div>
@@ -211,7 +211,7 @@ export default function LandingPage() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold">Our Mission</h3>
                 <p className="text-gray-600">
-                  At 501cemeAI, our mission is to democratize artificial intelligence and make it accessible to
+                  At 501c3meAI, our mission is to democratize artificial intelligence and make it accessible to
                   businesses of all sizes. We believe that AI should be a tool for everyone, not just tech giants with
                   unlimited resources.
                 </p>
@@ -244,19 +244,19 @@ export default function LandingPage() {
                   name: "Emily Rodriguez",
                   title: "CTO, Nexus Innovations",
                   testimonial:
-                    "501cemeAI's platform has completely transformed how we approach our AI initiatives. The results have been nothing short of amazing.",
+                    "501c3meAI's platform has completely transformed how we approach our AI initiatives. The results have been nothing short of amazing.",
                 },
                 {
                   name: "Michael Chen",
                   title: "Director of Data Science, TechForward",
                   testimonial:
-                    "We've tried several AI solutions, but 501cemeAI stands out with its intuitive interface and powerful capabilities. It's been a game-changer for our business.",
+                    "We've tried several AI solutions, but 501c3meAI stands out with its intuitive interface and powerful capabilities. It's been a game-changer for our business.",
                 },
                 {
                   name: "Sophia Williams",
                   title: "VP of Marketing, GlobalReach",
                   testimonial:
-                    "The customer support team at 501cemeAI is exceptional. They've been with us every step of the way, ensuring we get the most out of their platform.",
+                    "The customer support team at 501c3meAI is exceptional. They've been with us every step of the way, ensuring we get the most out of their platform.",
                 },
               ].map((testimonial, i) => (
                 <div key={i} className="rounded-2xl bg-white p-6 shadow-md">
@@ -307,10 +307,10 @@ export default function LandingPage() {
                     <h3 className="text-lg font-semibold mb-1">Email Us</h3>
                     <p className="text-gray-600 mb-2">Our friendly team is here to help.</p>
                     <a
-                      href="mailto:hello@501cemeai.com"
+                      href="mailto:hello@501c3meai.com"
                       className="text-fuchsia-600 hover:text-fuchsia-800 font-medium"
                     >
-                      hello@501cemeai.com
+                      hello@501c3meai.com
                     </a>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ export default function LandingPage() {
               <div className="max-w-md text-center md:text-left">
                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready to get started?</h2>
                 <p className="mt-4 text-lg text-fuchsia-100">
-                  Join thousands of satisfied customers and take your business to new heights with 501cemeAI.
+                  Join thousands of satisfied customers and take your business to new heights with 501c3meAI.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -432,7 +432,7 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <Rocket className="h-6 w-6 text-fuchsia-400" />
-                <span className="text-xl font-bold text-white">501cemeAI</span>
+                <span className="text-xl font-bold text-white">501c3meAI</span>
               </div>
               <p className="text-sm text-gray-400 max-w-xs">
                 Empowering businesses with vibrant, innovative AI solutions since 2020.
@@ -454,7 +454,7 @@ export default function LandingPage() {
             ))}
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500">© {new Date().getFullYear()} 501cemeAI. All rights reserved.</p>
+            <p className="text-sm text-gray-500">© {new Date().getFullYear()} 501c3meAI. All rights reserved.</p>
             <div className="flex gap-6">
               {["Terms", "Privacy", "Cookies"].map((item) => (
                 <Link key={item} href="#" className="text-sm text-gray-500 hover:text-fuchsia-400 transition-colors">
@@ -468,4 +468,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
