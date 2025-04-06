@@ -201,7 +201,7 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80"
+                  src="./public/images/founder.JPG"
                   width={600}
                   height={400}
                   alt="Diverse team collaborating on AI solutions"
