@@ -194,7 +194,7 @@ export default function LandingPage() {
                 About 501c3meAI
               </h2>
               <p className="mt-4 text-lg text-gray-600">
-                Founded in 2020, 501c3meAI has been at the forefront of AI innovation, helping businesses of all sizes
+                Founded in 2025, 501c3meAI has been at the forefront of AI innovation, helping businesses of all sizes
                 harness the power of artificial intelligence to drive growth and efficiency.
               </p>
             </div>
@@ -212,12 +212,12 @@ export default function LandingPage() {
                 <h3 className="text-2xl font-bold">Our Mission</h3>
                 <p className="text-gray-600">
                   At 501c3meAI, our mission is to democratize artificial intelligence and make it accessible to
-                  businesses of all sizes. We believe that AI should be a tool for everyone, not just tech giants with
+                  non-profits of all sizes. We believe that AI should be a tool for everyone, not just tech giants with
                   unlimited resources.
                 </p>
                 <p className="text-gray-600">
                   Our team of experts is dedicated to creating AI solutions that are powerful yet easy to use, helping
-                  our clients stay ahead in an increasingly competitive landscape.
+                  non-profits stay ahead in an increasingly competitive landscape.
                 </p>
                 <Button className="bg-gradient-to-r from-fuchsia-600 to-violet-600 hover:from-fuchsia-700 hover:to-violet-700">
                   Learn More About Us
@@ -330,16 +330,8 @@ export default function LandingPage() {
                   <h3 className="text-lg font-semibold mb-4">Office Locations</h3>
                   <div className="grid gap-4">
                     <div>
-                      <h4 className="font-medium">San Francisco</h4>
+                      <h4 className="font-medium">Atlanta</h4>
                       <p className="text-gray-600">100 Technology Drive, Suite 200</p>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">New York</h4>
-                      <p className="text-gray-600">350 Innovation Avenue, 15th Floor</p>
-                    </div>
-                    <div>
-                      <h4 className="font-medium">London</h4>
-                      <p className="text-gray-600">25 AI Square, Canary Wharf</p>
                     </div>
                   </div>
                 </div>
@@ -409,7 +401,7 @@ export default function LandingPage() {
               <div className="max-w-md text-center md:text-left">
                 <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Ready to get started?</h2>
                 <p className="mt-4 text-lg text-fuchsia-100">
-                  Join thousands of satisfied customers and take your business to new heights with 501c3meAI.
+                  Join thousands of satisfied customers and take your non-profits to new heights with 501c3meAI.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -435,10 +427,10 @@ export default function LandingPage() {
                 <span className="text-xl font-bold text-white">501c3meAI</span>
               </div>
               <p className="text-sm text-gray-400 max-w-xs">
-                Empowering businesses with vibrant, innovative AI solutions since 2020.
+                Empowering non-profits with vibrant, innovative AI solutions since 2025.
               </p>
             </div>
-            {["Product", "Company", "Resources"].map((category) => (
+            {/* {["Product", "Company", "Resources"].map((category) => (
               <div key={category}>
                 <h3 className="font-semibold text-white mb-4">{category}</h3>
                 <ul className="space-y-2">
@@ -451,7 +443,7 @@ export default function LandingPage() {
                   ))}
                 </ul>
               </div>
-            ))}
+            ))} */}
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-500">© {new Date().getFullYear()} 501c3meAI. All rights reserved.</p>
